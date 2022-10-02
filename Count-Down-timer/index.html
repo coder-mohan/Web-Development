@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>CountDown Timer</title>
+</head>
+<body>
+    <div class="nine">
+        <h1>CountDown Timer <span>Start Your CountDown</span></h1>
+      </div>
+    <div class="timer">
+        <div class="timer__controls">
+            <button data-time="30" class="timer__button">30 Secs</button>
+            <button data-time="60" class="timer__button">60 secs</button>
+            <button data-time="300" class="timer__button">5 minutes</button>
+            <button data-time="900" class="timer__button">15 minutes</button>
+            <button data-time="3600" class="timer__button">60 minutes</button>
+
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Enter Minutes">
+            </form>
+        </div>
+            <div class="display">
+                <h1 class="display__time-left"></h1>
+                <p class="display__end-time"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2022 <a href = "https://www.github.com/coder-mohan" target = "_self">coder mohan</a> All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
